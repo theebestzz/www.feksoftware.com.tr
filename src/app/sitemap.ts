@@ -1,26 +1,35 @@
 import type { MetadataRoute } from "next";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  return [
+import { absoluteUrl } from "@/lib/utils";
+
+import { locales } from "@/i18n/config";
+
+type Sitemap = MetadataRoute.Sitemap;
+
+export default function sitemap(): Sitemap {
+  const paths: Sitemap = [
     {
-      url: "https://feksoftware.vercel.app",
+      url: absoluteUrl(`/`),
       lastModified: new Date(),
+
       alternates: {
-        languages: {
-          en: "https://feksoftware.vercel.app",
-          tr: "https://feksoftware.vercel.app/tr",
-        },
+        languages: Object.fromEntries(
+          locales.map((locale) => [locale, absoluteUrl(`/${locale}`)]),
+        ),
       },
     },
+
     {
-      url: "https://feksoftware.vercel.app/about",
+      url: absoluteUrl(`/about`),
       lastModified: new Date(),
+
       alternates: {
-        languages: {
-          en: "https://feksoftware.vercel.app/about",
-          tr: "https://feksoftware.vercel.app/tr/about",
-        },
+        languages: Object.fromEntries(
+          locales.map((locale) => [locale, absoluteUrl(`/${locale}/about`)]),
+        ),
       },
     },
   ];
+
+  return [...paths];
 }
