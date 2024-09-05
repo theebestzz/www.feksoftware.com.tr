@@ -1,0 +1,36 @@
+{
+  "HomePage": {
+    "Title": "Fek Software",
+    "SubTitle": "Biz Her Zaman Mükemmelliğin Peşindeyiz.",
+    "Description": "En son teknolojileri ve çerçeveleri kullanarak güzel ürünler yaratıyorum. Geliştirme ve tasarıma olan tutkumla, harika dijital çözümler oluşturmaktan gurur duyuyorum."
+  },
+  "AboutPage": {
+    "Title": "Hakkımda"
+  },
+  "NotFoundPage": {
+    "Title": "Sayfa bulunamadı",
+    "PageNotFound": "Aradığınız sayfa bulunamadı.",
+    "ReturnHome": "Anasayfa'ya Dön"
+  },
+  "Navbar": {
+    "Home": "Anasayfa",
+    "About": "Hakkımda",
+    "Services": "Hizmetler",
+    "Products": "Ürünler",
+    "Projects": "Projeler",
+    "Contact": "İletişim"
+  },
+  "ThemeSwitcher": {
+    "Dark": "Koyu",
+    "Light": "Açık",
+    "System": "Sistem"
+  },
+  "Meta": {
+    "title": "Fek Software",
+    "description": "Fek Software - Created by fek"
+  },
+  "Preferences": {
+    "Title": "Kullanıcı tercihleri",
+    "Description": "Görünüm, dil seçeneklerini belirleyin ve daha iyi bir deneyim sağlayın"
+  }
+}
