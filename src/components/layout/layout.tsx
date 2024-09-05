@@ -1,6 +1,6 @@
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
-import { Preferences } from "@/components/layout/preferences";
+import { FixedButtons } from "@/components/layout/fixed-buttons";
 
 interface SiteLayoutProps {
   children: React.ReactNode;
@@ -11,7 +11,7 @@ export function Layout({ children }: SiteLayoutProps) {
     <>
       <Header />
       {children}
-      <Preferences />
+      <FixedButtons />
       <Footer />
     </>
   );

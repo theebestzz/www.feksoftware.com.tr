@@ -5,7 +5,8 @@
     "Description": "I create beautiful products using the latest technologies and frameworks. With a passion for developing and designing, I take pride in building amazing digital solutions."
   },
   "AboutPage": {
-    "Title": "About"
+    "Title": "About",
+    "SubTitle": "Our software solutions increase the efficiency of your business, offer innovative technologies tailored to your needs and accelerate your digital transformation process."
   },
   "NotFoundPage": {
     "Title": "Page Not Found",
@@ -19,6 +20,10 @@
     "Products": "Products",
     "Projects": "Projects",
     "Contact": "Contact"
+  },
+  "Footer": {
+    "Copyright": "Copyright",
+    "AllRightsReserved": "All Rights Reserved"
   },
   "ThemeSwitcher": {
     "Dark": "Dark",

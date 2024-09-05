@@ -1,12 +1,39 @@
-import { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 
-export const metadata: Metadata = {
-  title: "About",
-  description: "About - Created by fek",
-};
+import { TimelineBlock } from "@/components/about/timeline";
+import { PageHeader } from "@/components/page-header";
+
+import { getTranslations } from "next-intl/server";
+import { AboutBeamsBlock } from "@/components/about/beams";
+
+export async function generateMetadata() {
+  const t = await getTranslations("AboutPage");
+
+  return {
+    title: t("Title"),
+    description: t("SubTitle"),
+  };
+}
 
 export default async function AboutPage() {
   const t = await getTranslations("AboutPage");
-  return <div>{t("Title")}</div>;
+  return (
+    <>
+      <div className="flex h-screen flex-col items-center justify-center gap-5">
+        <PageHeader title={t("Title")} subtitle={t("SubTitle")} />
+        <div>
+          <Image
+            src={"/about/team.jpg"}
+            alt="Team"
+            title="Team"
+            width={1000}
+            height={1000}
+            className="h-[300px] w-full rounded md:h-[500px]"
+          />
+        </div>
+      </div>
+      <AboutBeamsBlock />
+      <TimelineBlock />
+    </>
+  );
 }

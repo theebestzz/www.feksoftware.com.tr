@@ -6,7 +6,7 @@ import { useMediaQuery } from "@/hooks/use-media-query";
 
 export function useIsMobile() {
   const [isMobile, setMobile] = useState(false);
-  const mediaQuery = useMediaQuery("(max-width: 1024px)");
+  const mediaQuery = useMediaQuery("(max-width: 768px)");
 
   useEffect(() => {
     if (!window.matchMedia) return;

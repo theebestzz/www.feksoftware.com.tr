@@ -144,6 +144,7 @@ export const ProductCard = ({
             width="600"
             className="absolute inset-0 h-full w-full object-cover object-left-top"
             alt={product.title}
+            priority={true}
           />
         </LinkPreview>
       ) : (
@@ -158,6 +159,7 @@ export const ProductCard = ({
             width="600"
             className="absolute inset-0 h-full w-full object-cover object-left-top"
             alt={product.title}
+            priority={true}
           />
         </Link>
       )}

@@ -5,7 +5,8 @@
     "Description": "En son teknolojileri ve çerçeveleri kullanarak güzel ürünler yaratıyorum. Geliştirme ve tasarıma olan tutkumla, harika dijital çözümler oluşturmaktan gurur duyuyorum."
   },
   "AboutPage": {
-    "Title": "Hakkımda"
+    "Title": "Hakkımda",
+    "SubTitle": "Yazılım çözümlerimiz, işletmenizin verimliliğini artırarak ihtiyaçlarınıza uygun yenilikçi teknolojiler sunar ve dijital dönüşüm sürecinizi hızlandırır."
   },
   "NotFoundPage": {
     "Title": "Sayfa bulunamadı",
@@ -19,6 +20,10 @@
     "Products": "Ürünler",
     "Projects": "Projeler",
     "Contact": "İletişim"
+  },
+  "Footer": {
+    "Copyright": "Telif Hakkı",
+    "AllRightsReserved": "Tüm Hakları Saklıdır"
   },
   "ThemeSwitcher": {
     "Dark": "Koyu",

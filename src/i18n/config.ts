@@ -26,6 +26,26 @@ export const pathnames: {
     en: "/about",
     tr: "/hakkimda",
   },
+
+  "/services": {
+    en: "/services",
+    tr: "/hizmetler",
+  },
+
+  "/products": {
+    en: "/products",
+    tr: "/urunler",
+  },
+
+  "/projects": {
+    en: "/projects",
+    tr: "/projeler",
+  },
+
+  "/contact": {
+    en: "/contact",
+    tr: "/iletisim",
+  },
 };
 
 export const localePrefix: any = "as-needed";

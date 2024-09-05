@@ -95,7 +95,7 @@ export default async function RootLayout({
         <NextIntlClientProvider locale={params.locale} messages={messages}>
           <Providers params={params}>
             <Layout>
-              <main>{children}</main>
+              <main className="flex min-h-screen flex-col">{children}</main>
             </Layout>
           </Providers>
         </NextIntlClientProvider>
