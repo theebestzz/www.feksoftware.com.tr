@@ -20,12 +20,12 @@ export default function sitemap(): Sitemap {
     },
 
     {
-      url: absoluteUrl(`/docs`),
+      url: absoluteUrl(`/about`),
       lastModified: new Date(),
 
       alternates: {
         languages: Object.fromEntries(
-          locales.map((locale) => [locale, absoluteUrl(`/${locale}/docs`)]),
+          locales.map((locale) => [locale, absoluteUrl(`/${locale}/about`)]),
         ),
       },
     },
