@@ -11,6 +11,9 @@ import { getObjectValueByLocale } from "@/lib/utils";
 import { siteConfig } from "@/lib/site-config";
 import { Layout } from "@/components/layout/layout";
 
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
+
 interface RootLayoutProps {
   children: React.ReactNode;
   params: { locale: string };
@@ -92,6 +95,8 @@ export default async function RootLayout({
       className={global.className}
     >
       <body>
+        <SpeedInsights />
+        <Analytics />
         <NextIntlClientProvider locale={params.locale} messages={messages}>
           <Providers params={params}>
             <Layout>
