@@ -16,6 +16,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { useTranslations } from "next-intl";
 
 interface MobileSheetProps {
   links: {
@@ -26,6 +27,9 @@ interface MobileSheetProps {
 
 export function MobileSheet({ links }: MobileSheetProps) {
   const [sheetOpen, setSheetOpen] = useState(false);
+
+  const t = useTranslations("Navbar");
+
   return (
     <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
       <SheetTrigger>
@@ -86,8 +90,8 @@ export function MobileSheet({ links }: MobileSheetProps) {
           ))}
         </div>
         <div className="mt-20 flex cursor-pointer items-center justify-evenly gap-2 rounded-full bg-green-600 p-3 text-white shadow-2xl backdrop-blur-sm dark:shadow-none">
-          <FaWhatsapp className="animate-bell size-7 md:size-10" /> Whatsapp
-          Destek Hattı
+          <FaWhatsapp className="size-7 animate-bell md:size-10" />{" "}
+          {t("Whatsapp")}
         </div>
       </SheetContent>
     </Sheet>

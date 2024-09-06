@@ -8,6 +8,10 @@
     "Title": "Hakkımda",
     "SubTitle": "Yazılım çözümlerimiz, işletmenizin verimliliğini artırarak ihtiyaçlarınıza uygun yenilikçi teknolojiler sunar ve dijital dönüşüm sürecinizi hızlandırır."
   },
+  "ServicesPage": {
+    "Title": "Hizmetler",
+    "SubTitle": "sub"
+  },
   "NotFoundPage": {
     "Title": "Sayfa bulunamadı",
     "PageNotFound": "Aradığınız sayfa bulunamadı.",
@@ -19,7 +23,8 @@
     "Services": "Hizmetler",
     "Products": "Ürünler",
     "Projects": "Projeler",
-    "Contact": "İletişim"
+    "Contact": "İletişim",
+    "Whatsapp": "Whatsapp Destek Hattı"
   },
   "Footer": {
     "Copyright": "Telif Hakkı",

@@ -3,7 +3,8 @@ import { Link } from "@/i18n/navigation";
 import { AiOutlineProduct } from "react-icons/ai";
 
 import { getLinks } from "@/data/links";
-import { MobileSheet } from "./mobile-sheet";
+
+import { MobileSheet } from "@/components/layout/mobile-sheet";
 
 export async function MobileMenu() {
   const links = await getLinks();
@@ -27,9 +28,9 @@ export async function MobileMenu() {
         </svg>
       </Link>
 
-      <button className="flex-shrink-0">
+      <Link href={"/products"} className="flex-shrink-0">
         <AiOutlineProduct className="size-6" />
-      </button>
+      </Link>
     </div>
   );
 }

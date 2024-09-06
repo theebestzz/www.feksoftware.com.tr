@@ -8,6 +8,10 @@
     "Title": "About",
     "SubTitle": "Our software solutions increase the efficiency of your business, offer innovative technologies tailored to your needs and accelerate your digital transformation process."
   },
+  "ServicesPage": {
+    "Title": "Services",
+    "SubTitle": "sub"
+  },
   "NotFoundPage": {
     "Title": "Page Not Found",
     "PageNotFound": "The page you were looking for could not be found.",
@@ -19,7 +23,8 @@
     "Services": "Services",
     "Products": "Products",
     "Projects": "Projects",
-    "Contact": "Contact"
+    "Contact": "Contact",
+    "Whatsapp": "Whatsapp Support"
   },
   "Footer": {
     "Copyright": "Copyright",
