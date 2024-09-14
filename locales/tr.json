@@ -2,11 +2,13 @@
   "HomePage": {
     "Title": "Fek Software",
     "SubTitle": "Biz Her Zaman Mükemmelliğin Peşindeyiz.",
-    "Description": "En son teknolojileri ve çerçeveleri kullanarak güzel ürünler yaratıyorum. Geliştirme ve tasarıma olan tutkumla, harika dijital çözümler oluşturmaktan gurur duyuyorum."
+    "Description": "En son teknolojileri ve çerçeveleri kullanarak güzel ürünler yaratıyoruz. Geliştirme ve tasarıma olan tutkumuzla, harika dijital çözümler oluşturmaktan gurur duyuyoruz.",
+    "Contact": "İletişime Geç"
   },
   "AboutPage": {
-    "Title": "Hakkımda",
-    "SubTitle": "Yazılım çözümlerimiz, işletmenizin verimliliğini artırarak ihtiyaçlarınıza uygun yenilikçi teknolojiler sunar ve dijital dönüşüm sürecinizi hızlandırır."
+    "Title": "Hakkımızda",
+    "SubTitle": "Yazılım çözümlerimiz, işletmenizin verimliliğini artırarak ihtiyaçlarınıza uygun yenilikçi teknolojiler sunar ve dijital dönüşüm sürecinizi hızlandırır.",
+    "Description": "İşletmelerin ihtiyaç duyduğu dijital dönüşüm çözümlerini sunarak operasyonel verimliliği artırır, müşteri deneyimini iyileştirir ve büyümeyi hızlandırır. Gelişmiş teknolojilerle donatılmış çözümlerimiz, iş süreçlerinizi optimize ederken inovasyon ve rekabet avantajı sağlamanıza yardımcı olur."
   },
   "ServicesPage": {
     "Title": "Hizmetler",
@@ -19,7 +21,7 @@
   },
   "Navbar": {
     "Home": "Anasayfa",
-    "About": "Hakkımda",
+    "About": "Hakkımızda",
     "Services": "Hizmetler",
     "Products": "Ürünler",
     "Projects": "Projeler",

@@ -89,10 +89,14 @@ export function MobileSheet({ links }: MobileSheetProps) {
             </Link>
           ))}
         </div>
-        <div className="mt-20 flex cursor-pointer items-center justify-evenly gap-2 rounded-full bg-green-600 p-3 text-white shadow-2xl backdrop-blur-sm dark:shadow-none">
+        <a
+          href="https://api.whatsapp.com/send?phone=905050520138"
+          target="_blank"
+          className="mt-20 flex cursor-pointer items-center justify-evenly gap-2 rounded-full bg-green-600 p-3 text-white shadow-2xl backdrop-blur-sm dark:shadow-none"
+        >
           <FaWhatsapp className="size-7 animate-bell md:size-10" />{" "}
           {t("Whatsapp")}
-        </div>
+        </a>
       </SheetContent>
     </Sheet>
   );

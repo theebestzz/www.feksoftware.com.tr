@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-import { TimelineBlock } from "@/components/about/timeline";
 import { PageHeader } from "@/components/page-header";
 
 import { getTranslations } from "next-intl/server";
 import { AboutBeamsBlock } from "@/components/about/beams";
+import { CommentsBlock } from "@/components/about/comments";
 
 export async function generateMetadata() {
   const t = await getTranslations("AboutPage");
@@ -33,7 +33,7 @@ export default async function AboutPage() {
         </div>
       </div>
       <AboutBeamsBlock />
-      <TimelineBlock />
+      <CommentsBlock />
     </>
   );
 }

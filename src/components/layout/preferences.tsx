@@ -11,6 +11,7 @@ import { labels } from "@/i18n/config";
 
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
+import { useParams } from "next/navigation";
 
 import {
   Dialog,
@@ -29,14 +30,16 @@ export function Preferences() {
   const router = useRouter();
   const pathname = usePathname();
   const currentLocale = useLocale();
+  const params = useParams();
 
   const { setTheme } = useTheme();
 
-  function changeLocale(locale: string) {
-    router.replace(pathname, {
-      locale,
-    });
-  }
+  const changeLocale = (lang: any) => {
+    router.push(
+      { pathname: pathname as any, params: params },
+      { locale: lang },
+    );
+  };
 
   return (
     <Dialog>

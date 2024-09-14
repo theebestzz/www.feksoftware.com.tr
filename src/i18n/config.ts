@@ -37,6 +37,11 @@ export const pathnames: {
     tr: "/urunler",
   },
 
+  "/products/[slug]": {
+    en: "/products/[slug]",
+    tr: "/urunler/[slug]",
+  },
+
   "/projects": {
     en: "/projects",
     tr: "/projeler",
@@ -50,4 +55,4 @@ export const pathnames: {
 
 export const localePrefix: any = "as-needed";
 
-export const localeDetection: any = false;
+export const localeDetection: any = true;

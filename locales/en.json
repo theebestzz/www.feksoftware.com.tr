@@ -2,11 +2,13 @@
   "HomePage": {
     "Title": "Fek Software",
     "SubTitle": "We Always Strive For Excellence.",
-    "Description": "I create beautiful products using the latest technologies and frameworks. With a passion for developing and designing, I take pride in building amazing digital solutions."
+    "Description": "We create beautiful products using the latest technologies and frameworks. With our passion for development and design, we take pride in creating amazing digital solutions.",
+    "Contact": "Contact Us"
   },
   "AboutPage": {
-    "Title": "About",
-    "SubTitle": "Our software solutions increase the efficiency of your business, offer innovative technologies tailored to your needs and accelerate your digital transformation process."
+    "Title": "About Us",
+    "SubTitle": "Our software solutions increase the efficiency of your business, offer innovative technologies tailored to your needs and accelerate your digital transformation process.",
+    "Description": "It increases operational efficiency, improves customer experience and accelerates growth by providing digital transformation solutions that businesses need. Our solutions equipped with advanced technologies help you provide innovation and competitive advantage while optimizing your business processes."
   },
   "ServicesPage": {
     "Title": "Services",

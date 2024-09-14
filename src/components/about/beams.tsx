@@ -1,7 +1,11 @@
+"use client";
+
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { siteConfig } from "@/lib/site-config";
+import { useTranslations } from "next-intl";
 
 export function AboutBeamsBlock() {
+  const t = useTranslations("AboutPage");
   return (
     <div className="relative flex h-[20rem] w-full flex-col items-center justify-center rounded-md bg-primary-foreground/25 antialiased dark:bg-primary-foreground/25 md:h-[30rem]">
       <div className="mx-auto max-w-2xl p-4">
@@ -10,11 +14,7 @@ export function AboutBeamsBlock() {
         </h1>
         <p></p>
         <p className="relative z-10 mx-auto my-2 max-w-lg text-center text-sm text-neutral-500">
-          Yazılım hizmetlerimiz, işletmelerin ihtiyaç duyduğu dijital dönüşüm
-          çözümlerini sunarak operasyonel verimliliği artırır, müşteri
-          deneyimini iyileştirir ve büyümeyi hızlandırır. Gelişmiş
-          teknolojilerle donatılmış çözümlerimiz, iş süreçlerinizi optimize
-          ederken inovasyon ve rekabet avantajı sağlamanıza yardımcı olur.
+          {t("Description")}
         </p>
       </div>
       <BackgroundBeams />

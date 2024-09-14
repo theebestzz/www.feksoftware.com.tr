@@ -84,6 +84,11 @@ const config = {
           "50%": { transform: "rotate(-15deg)" },
           "75%": { transform: "rotate(10deg)" },
         },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -91,6 +96,8 @@ const config = {
         "spin-slow": "spin 5s linear infinite",
         shimmer: "shimmer 2s linear infinite",
         bell: "bell 3s ease-in-out infinite",
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
     },
   },
