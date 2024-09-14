@@ -1,5 +1,6 @@
 import { BackgroundLines } from "@/components/ui/background-lines";
 import { Button } from "@/components/ui/button";
+import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 
 export default async function Home() {
@@ -18,12 +19,7 @@ export default async function Home() {
           size={"lg"}
           className="relative mt-5 bg-background/50 backdrop-blur-sm"
         >
-          <a
-            target="_blank"
-            href="https://api.whatsapp.com/send?phone=905050520138"
-          >
-            {t("Contact")}
-          </a>
+          <Link href={"/contact"}>{t("Contact")}</Link>
         </Button>
       </BackgroundLines>
     </>

@@ -5,7 +5,7 @@ export function FixedButtons() {
   return (
     <div className="relative z-10">
       <Preferences />
-      <Whatsapp />
+      {/* <Whatsapp /> */}
     </div>
   );
 }

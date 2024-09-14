@@ -7,7 +7,6 @@ import { FaWhatsapp } from "react-icons/fa";
 export function Whatsapp() {
   return (
     <motion.a
-      href="https://api.whatsapp.com/send?phone=905050520138"
       target="_blank"
       initial={{ y: 100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
